@@ -113,7 +113,7 @@ bool InputNumber(unsigned long long int& number){           //check the input of
     
     if(number<0){
 
-        cout<<"Number must be a Natural number (n>0)"<<endl;
+        cout<<"Number must be a Natural number (n>=0)"<<endl;
     
         return false;
     }
